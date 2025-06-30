@@ -33,12 +33,12 @@
     <Linha>
         <Botao texto="1" onClick={numDigitado}/>
         <Botao texto="2" onClick={numDigitado}/>
-        <Botao texto="3" />
+        <Botao texto="3" onClick={numDigitado}/>
         <Botao operacao texto="-" />
     </Linha>
     
     <Linha>
-        <Botao duplo texto="0" />
+        <Botao duplo texto="0" onClick={numDigitado}/>
         <Botao texto="," />
         <Botao destaque texto="=" />
     </Linha>
