@@ -27,12 +27,12 @@
     <Linha>
         <Botao texto="4" onClick={numDigitado} />
         <Botao texto="5" onClick={numDigitado} />
-        <Botao texto="6" />
+        <Botao texto="6" onClick={numDigitado}/>
         <Botao operacao texto="+" />
     </Linha>
     <Linha>
-        <Botao texto="1" />
-        <Botao texto="2" />
+        <Botao texto="1" onClick={numDigitado}/>
+        <Botao texto="2" onClick={numDigitado}/>
         <Botao texto="3" />
         <Botao operacao texto="-" />
     </Linha>
