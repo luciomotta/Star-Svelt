@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2017",
+    // "verbatimModuleSyntax": true, // Use this instead of deprecated options
+    "ignoreDeprecations": "5.0"  // Suppress deprecation warnings
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}
