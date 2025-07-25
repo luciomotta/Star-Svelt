@@ -111,7 +111,7 @@
     </div>
     <!-- explicando Div a cima -->
     <div class="flex justify-center items-center col-start-3">
-        <p class="text-center">
+        <p class="text-center max-w-full">
             <span class="text-2xl font-bold">Efeitos do USERNAME</span>
             <br />
             <span class="text-lg">Veja como usar os efeitos reativos do Svelte</span>
